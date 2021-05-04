@@ -1,5 +1,5 @@
 <template>
-  <v-card rounded="xl"  style="background:url('https://zenix.dexignzone.com/xhtml/images/card/card3.jpg')" dark>
+  <v-card rounded="xl"  style="background:url('https://www.anapaya.net/hubfs/constellation-bg.jpg')"  dark >
       <v-card-title>Swap Exchange</v-card-title>
       <v-card-subtitle>Exchange coin</v-card-subtitle>
       <v-card-text>
