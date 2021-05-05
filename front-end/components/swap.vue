@@ -1,22 +1,25 @@
 <template>
-  <v-card rounded="xl"  style="background:url('https://www.anapaya.net/hubfs/constellation-bg.jpg')"  dark >
+  <v-card   rounded="xl"     >
       <v-card-title>Swap Exchange</v-card-title>
       <v-card-subtitle>Exchange coin</v-card-subtitle>
       <v-card-text>
            <v-text-field
              
             label="From"
-            filled
-             
+            outlined
+            clearable
+            class="rounded-xl"
           ></v-text-field>
 
             <v-text-field
              
             label="To"
-            filled
+             outlined
+             clearable
+             class="rounded-xl"
           ></v-text-field>
 
-<v-btn large color="#00AAF0" dark rounded="xl" elevation="0" block>
+<v-btn large color="#00AAF0" dark  class="rounded-xl"  elevation="0" block>
              Exchange  Swap
           </v-btn>
 
